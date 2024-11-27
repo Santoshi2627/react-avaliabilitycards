@@ -40,7 +40,7 @@ class ProductsMain extends Component{
     gap: " 60px",
     padding: "100px",
     justifyContent: "space-evenly",backgroundColor:"pink",margin:"0"}}>
-                <p>avaliable cards are in green and unavaliable cards are in red</p>
+{/*                 <p>avaliable cards are in green and unavaliable cards are in red</p> */}
             <div style={{...styles.card,...obj[0].productAvaliability?styles.greenbox:styles.redbox}}>
                 <h1>{obj[0].productName}</h1>
                 <h2>{obj[0].productPrice}</h2>
@@ -66,6 +66,7 @@ class ProductsMain extends Component{
              <h2>{obj[5].productPrice}</h2>
          </div>
          </div>
+               <p>avaliable cards are in green and unavaliable cards are in red</p>
      )
         
     }
