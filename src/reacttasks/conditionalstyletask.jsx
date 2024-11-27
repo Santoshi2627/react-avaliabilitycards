@@ -65,9 +65,11 @@ class ProductsMain extends Component{
              <h1>{obj[5].productName}</h1>
              <h2>{obj[5].productPrice}</h2>
          </div>
-                   <p>avaliable cards are in green and unavaliable cards are in red</p>
+{/*                    <p>avaliable cards are in green and unavaliable cards are in red</p> */}
          </div>
-               // <p>avaliable cards are in green and unavaliable cards are in red</p>
+            <>
+               <p>avaliable cards are in green and unavaliable cards are in red</p>
+            </>
      )
         
     }
