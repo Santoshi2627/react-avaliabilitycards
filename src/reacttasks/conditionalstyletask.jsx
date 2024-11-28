@@ -79,10 +79,10 @@ const styles={
         width: "300px", // Fixed width for each card
         textAlign: "center", // Center-align text
     },
-    redbox:{backgroundColor:"red",padding:"20px"},
-    greenbox:{backgroundColor:"green",padding:"20px"},
-   avaliable:{color:"white"},
-   unavaliable:{color:"black"},
+    redbox:{backgroundColor:"red",padding:"20px",color:"black"},
+    greenbox:{backgroundColor:"green",padding:"20px",color:"white"},
+   // avaliable:{color:"white"},
+   // unavaliable:{color:"black"},
    
 //    padding:"30px"
 }
