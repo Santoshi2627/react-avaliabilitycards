@@ -81,8 +81,7 @@ const styles={
     },
     redbox:{backgroundColor:"red",padding:"20px",color:"black"},
     greenbox:{backgroundColor:"green",padding:"20px",color:"white"},
-   // avaliable:{color:"white"},
-   // unavaliable:{color:"black"},
+ 
    
 //    padding:"30px"
 }
