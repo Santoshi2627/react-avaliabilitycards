@@ -57,7 +57,7 @@ class ProductsMain extends Component{
              <h2>{obj[2].productPrice}</h2>
          </div>
          <div style={{...styles.card,...obj[3].productAvaliability?styles.greenbox:styles.redbox}}>
-                <img src="s" alt="iphone"/>
+                <img src="https://easy-peasy.ai/cdn-cgi/image/quality=80,format=auto,width=700/https://fdczvxmwwjwpwbeeqcth.supabase.co/storage/v1/object/public/images/8b3870c7-7d7f-427d-a930-87f4247948c9/7dacb0e3-8fcf-4d76-aceb-902cce940132.png" alt="iphone"/>
              <h1>{obj[3].productName}</h1>
              <h2>{obj[3].productPrice}</h2>
          </div>
