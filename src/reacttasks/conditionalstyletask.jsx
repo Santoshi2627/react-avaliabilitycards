@@ -42,17 +42,17 @@ class ProductsMain extends Component{
     justifyContent: "space-evenly",backgroundColor:"pink",margin:"0"}}>
 {/*                 <p>avaliable cards are in green and unavaliable cards are in red</p> */}
             <div style={{...styles.card,...obj[0].productAvaliability?styles.greenbox:styles.redbox}}>
-                <img src="https://www.androidheadlines.com/wp-content/uploads/2024/09/Galaxy-S25-Ultra-5K1-1420x799.webp" alt="samsung"/>
+                <img src="https://www.androidheadlines.com/wp-content/uploads/2024/09/Galaxy-S25-Ultra-5K1-1420x799.webp" alt="samsung" style={{width:"100px", height:"100px"}/>
                 <h1>{obj[0].productName}</h1>
                 <h2>{obj[0].productPrice}</h2>
             </div>
              <div style={{...styles.card,...obj[1].productAvaliability?styles.greenbox:styles.redbox}}>
-                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfdE-EsNIBk48dOQ3_Iox_2ndgywTkVYzR2g&s" alt="ipad"/>
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfdE-EsNIBk48dOQ3_Iox_2ndgywTkVYzR2g&s" alt="ipad" style={{width:"100px", height:"100px"}}/>
              <h1>{obj[1].productName}</h1>
              <h2>{obj[1].productPrice}</h2>
          </div>
          <div style={{...styles.card,...obj[2].productAvaliability?styles.greenbox:styles.redbox}}>
-                <img src="https://www.hindustantimes.com/ht-img/img/2023/12/08/1600x900/Apple-Macbook-Pro---Official-image-_1702007766290.jpg" alt="macbook"/>
+                <img src="https://www.hindustantimes.com/ht-img/img/2023/12/08/1600x900/Apple-Macbook-Pro---Official-image-_1702007766290.jpg" alt="macbook" style={{width:"100px", height:"100px"}}/>
              <h1>{obj[2].productName}</h1>
              <h2>{obj[2].productPrice}</h2>
          </div>
@@ -62,12 +62,12 @@ class ProductsMain extends Component{
              <h2>{obj[3].productPrice}</h2>
          </div>
          <div style={{...styles.card,...obj[4].productAvaliability?styles.greenbox:styles.redbox}}>
-                <img src="https://images.samsung.com/is/image/samsung/p6pim/in/sm-a356elbjins/gallery/in-galaxy-a35-5g-sm-a356-sm-a356elbjins-thumb-540296439" alt="samsung"/>
+                <img src="https://images.samsung.com/is/image/samsung/p6pim/in/sm-a356elbjins/gallery/in-galaxy-a35-5g-sm-a356-sm-a356elbjins-thumb-540296439" alt="samsung" style={{width:"100px", height:"100px"}}/>
              <h1>{obj[4].productName}</h1>
              <h2>{obj[4].productPrice}</h2>
          </div>
          <div style={{...styles.card,...obj[5].productAvaliability?styles.greenbox:styles.redbox}}>
-                <img src="https://5.imimg.com/data5/SELLER/Default/2023/8/337487292/ST/JB/TD/189620676/oneplus-nord-ce-3-5g-500x500.jpg" alt="oneplus"/>
+                <img src="https://5.imimg.com/data5/SELLER/Default/2023/8/337487292/ST/JB/TD/189620676/oneplus-nord-ce-3-5g-500x500.jpg" alt="oneplus" style={{width:"100px", height:"100px"}}/>
             
              <h1>{obj[5].productName}</h1>
              <h2>{obj[5].productPrice}</h2>
