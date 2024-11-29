@@ -42,7 +42,7 @@ class ProductsMain extends Component{
     justifyContent: "space-evenly",backgroundColor:"pink",margin:"0"}}>
 {/*                 <p>avaliable cards are in green and unavaliable cards are in red</p> */}
             <div style={{...styles.card,...obj[0].productAvaliability?styles.greenbox:styles.redbox}}>
-                <img src="https://www.androidheadlines.com/wp-content/uploads/2024/09/Galaxy-S25-Ultra-5K1-1420x799.webp" alt="samsung" style={{width:"100px", height:"100px"}/>
+                <img src="https://www.androidheadlines.com/wp-content/uploads/2024/09/Galaxy-S25-Ultra-5K1-1420x799.webp" alt="samsung" style={{width:"100px", height:"100px"}}/>
                 <h1>{obj[0].productName}</h1>
                 <h2>{obj[0].productPrice}</h2>
             </div>
